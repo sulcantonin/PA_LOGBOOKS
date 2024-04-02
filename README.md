@@ -7,8 +7,8 @@ By sharing datasets, model architectures, and evaluation methodologies, we aim t
 
 ## Dataset
 ### ARXIV
-https://huggingface.co/datasets/sulcan/PA_ARXIV
+[HuggingFace](https://huggingface.co/datasets/sulcan/PA_ARXIV)
 ### JACOW
-TBD
+[HuggingFace](https://huggingface.co/datasets/sulcan/PA_JACOW/tree/main)
 ### BOOKS
 TBD
