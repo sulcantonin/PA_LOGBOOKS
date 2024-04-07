@@ -24,6 +24,10 @@ print(embeddings)
 
 ## RetriveQA
 
+## PACuna 2.0
+TBD
+
+
 ## Dataset
 ### ARXIV
 [HuggingFace](https://huggingface.co/datasets/sulcan/PA_ARXIV)
