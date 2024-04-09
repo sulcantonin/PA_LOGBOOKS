@@ -7,8 +7,8 @@ By sharing datasets, model architectures, and evaluation methodologies, we aim t
 
 ## Embedding
 Two models available at HuggingFace
-- PA_EMBEDDING_CASED Cased embedding, trained on PA_ARXIV, PA_JACOW and PA_BOOKS with no filtering of too long/short tokens, token window 266 tokens max, https://huggingface.co/sulcan/PA_EMBEDDING_CASED
-- PA_EMBEDDING_UNCASED Uncased embedding, trained on PA_ARXIV, PA_JACOW and PA_BOOKS with filtering of too long (>=512)/short(<=16) tokens, token window 512 tokens max, https://huggingface.co/sulcan/PA_EMBEDDING_UNCASED
+- **PA_EMBEDDING_CASED** Cased embedding, trained on **PA_ARXIV**, **PA_JACOW** and **PA_BOOKS** with no filtering of too long/short tokens, token window 266 tokens max, **https://huggingface.co/sulcan/PA_EMBEDDING_CASED**
+- **PA_EMBEDDING_UNCASED** Uncased embedding, trained on **PA_ARXIV**, **PA_JACOW** and **PA_BOOKS** with filtering of too long (>=512)/short(<=16) tokens, token window 512 tokens max, **https://huggingface.co/sulcan/PA_EMBEDDING_UNCASED**
 
 
 ```python
@@ -22,11 +22,11 @@ print(embeddings)
 
 
 ### Training
-Training was performed on PA_JACOW, PA_ARXIV and PA_BOOKS (see details below) on A100. It took approximately 48 hours for 3 epochs (viz details on HuggingFace model card). Training is based on 
+Training was performed on **PA_JACOW**, **PA_ARXIV** and **PA_BOOKS** (see details below) on A100. It took approximately 48 hours for 3 epochs (viz details on HuggingFace model card). Training is based on 
 ```
 Tianyu Gao, Xingcheng Yao, Danqi Chen; SimCSE: Simple Contrastive Learning of Sentence Embeddings https://arxiv.org/abs/2104.08821
 ```
-Training script for PA_EMBEDDING_UNCASED is in [notebooks/embedding.ipynb](notebooks/embedding.ipynb)
+Training script for **PA_EMBEDDING_UNCASED** is in [notebooks/embedding.ipynb](notebooks/embedding.ipynb)
 
 
 ## RAG - RetriveQA
