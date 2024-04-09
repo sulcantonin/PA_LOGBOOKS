@@ -23,7 +23,7 @@ print(embeddings)
 - Tianyu Gao, Xingcheng Yao, Danqi Chen; SimCSE: Simple Contrastive Learning of Sentence Embeddings https://arxiv.org/abs/2104.08821
 
 ## RAG - RetriveQA
-See [code/rag.ipynb]
+See [code/rag.ipynb](code/rag.ipynb)
 ## PACuna 2.0
 TBD
 ## Dataset
