@@ -20,10 +20,17 @@ embeddings = model.encode(sentences)
 print(embeddings)
 ```
 
-- Tianyu Gao, Xingcheng Yao, Danqi Chen; SimCSE: Simple Contrastive Learning of Sentence Embeddings https://arxiv.org/abs/2104.08821
+
+### Training
+Training was performed on PA_JACOW, PA_ARXIV and PA_BOOKS (see details below) on A100. It took approximately 48 hours for 3 epochs (viz details on HuggingFace model card). Training is based on 
+```
+Tianyu Gao, Xingcheng Yao, Danqi Chen; SimCSE: Simple Contrastive Learning of Sentence Embeddings https://arxiv.org/abs/2104.08821
+```
+Training script for PA_EMBEDDING_UNCASED is in [notebooks/embedding.ipynb](notebooks/embedding.ipynb)
+
 
 ## RAG - RetriveQA
-See [code/rag.ipynb](code/rag.ipynb)
+See [notebooks/rag.ipynb](code/rag.ipynb)
 ## PACuna 2.0
 TBD
 ## Dataset
