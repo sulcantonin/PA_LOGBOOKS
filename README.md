@@ -26,7 +26,7 @@ Training was performed on **PA_JACOW**, **PA_ARXIV** and **PA_BOOKS** (see detai
 ```
 Tianyu Gao, Xingcheng Yao, Danqi Chen; SimCSE: Simple Contrastive Learning of Sentence Embeddings https://arxiv.org/abs/2104.08821
 ```
-Training script for **PA_EMBEDDING_UNCASED** is in [notebooks/embedding.ipynb](notebooks/embedding.ipynb)
+Training script for **PA_EMBEDDING_UNCASED** is in [notebooks/embedding.ipynb](notebooks/embedding.ipynb), inspired by [https://www.sbert.net/examples/unsupervised_learning/SimCSE/README.html](https://www.sbert.net/examples/unsupervised_learning/SimCSE/README.html)
 
 
 ## RAG - RetriveQA
